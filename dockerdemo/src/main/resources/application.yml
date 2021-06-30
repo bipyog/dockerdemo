@@ -1,0 +1,18 @@
+server:
+  port: 8090
+  servlet:
+    context-path: /dockerdemo
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    shutdown:
+      enabled: true
+    info:
+      enabled: true
+
+my-prop: testPropcla
+
